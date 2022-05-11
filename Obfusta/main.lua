@@ -11,6 +11,9 @@ local b = "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 ]]
 Protection2 =
 [[c = "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"]]
+Music = love.audio.newSource("Assets/BackgroundMusic.mp3","stream")
+Music:setLooping(true)
+love.audio.play(Music)
 ObfuscateFile = io.open("Obfuscate.lua")
 OutputFile = io.open("Output.txt","w")
 io.input(ObfuscateFile)
@@ -23,6 +26,7 @@ ObfuscateFile:close()
 io.input(OutputFile)
 OutputFile:write([[load(]].."[["..Protection..Protection..Protection..Protection..Protection..Protection..Protection..Protection..Protection..Protection..Protection..Protection..[[load("]]..ObfuscatedCode..[[")()]]..Protection2..Protection2..Protection2..Protection2..Protection2..Protection2..Protection2..Protection2..Protection..Protection2..Protection..Protection2..Protection..Protection2..Protection..Protection2..Protection..Protection2..Protection.."]]"..[[)()]])
 end
+
 function love.draw()
 love.graphics.draw(Background,0,0)
 love.graphics.draw(Logo,150,50,nil,0.5,nil,6.5,9)
