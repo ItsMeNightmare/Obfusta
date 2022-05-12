@@ -15,3 +15,4 @@ Install here https://www.love2d.org (LÖVE is not owned by me credit to them)
 -------------------------------------------------------
 # Lite vs normal
 Lite is a less extreme verison of normal
+---------------------------------
