@@ -1,5 +1,5 @@
 # Obfusta
-# I KNOW IT DOES NOT WORK I WILL TRY TO GET IT FIXED ASAP
+# Fixed
 A (simple) lua obfuscator.
 Made for LÖVE2D
 Install here https://www.love2d.org (LÖVE is not owned by me credit to them)
