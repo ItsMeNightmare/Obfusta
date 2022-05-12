@@ -10,4 +10,8 @@ Install here https://www.love2d.org (LÖVE is not owned by me credit to them)
 # How to use?
 - Set the Obfuscate.lua file to the code you want to obfuscate
 - After it's done it will be in the Output.txt
+- Use in VS code or it will *not* work 
+- Install a extention for it to work in VS like this: https://marketplace.visualstudio.com/items?itemName=pixelbyte-studios.pixelbyte-love2d
 -------------------------------------------------------
+# Lite vs normal
+Lite is a less extreme verison of normal
