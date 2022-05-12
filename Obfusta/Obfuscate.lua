@@ -1,1 +1,1 @@
-print(math.random(1,10))
+print("Hello, world")
